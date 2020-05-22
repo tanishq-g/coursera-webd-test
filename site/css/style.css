@@ -44,7 +44,7 @@ margin-bottom: 20px;
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
    .col-lg-4{
     float: left;
     margin-right: 10px;
@@ -59,7 +59,7 @@ margin-bottom: 20px;
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .col-md-6, .col-md-11 {
     float: left;
     border: 1px solid green;
