@@ -19,6 +19,7 @@ p {
   color: white;
   margin-top: 0;
 }
+
 div {
 
   border: 1px black solid;
@@ -26,19 +27,20 @@ margin-bottom: 20px;
 }
 .d1{
   background-color: grey;
-  color: orange;
+  color: white;
 }
 .d2{
   background-color: grey;
-  color: red;
+  color: white;
 }
 .d3{
   background-color: grey;
-  color: blue;
+  color: white;
 }
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  border: 0;
 }
 
 /********** Large devices only **********/
