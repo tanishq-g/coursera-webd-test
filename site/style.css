@@ -1,0 +1,78 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 425%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+p {
+  text-align: center;
+  background-color: #A52A2A;
+  width: 15%;
+  height: 1%;
+  margin-right:0;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  margin-top: 0;
+}
+div {
+
+  border: 1px black solid;
+margin-bottom: 20px;
+}
+.d1{
+  background-color: grey;
+  color: orange;
+}
+.d2{
+  background-color: grey;
+  color: red;
+}
+.d3{
+  background-color: grey;
+  color: blue;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   .col-lg-4{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+  }
+  
+  .col-lg-4 {
+    width: 31%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-6, .col-md-11 {
+    float: left;
+    border: 1px solid green;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .col-md-6 {
+    width: 45%;
+  }
+  
+  .col-md-11 {
+    width: 91.66%;
+  }
+  
+}
+
