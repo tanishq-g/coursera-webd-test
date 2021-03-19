@@ -1,0 +1,23 @@
+{
+  "name": "tanishq",
+  "version": "1.0.0",
+  "description": "learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "coursera-webd-test"
+  },
+  "keywords": [
+    "first",
+    "course"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.9.1",
+    "lite-server": "^2.6.1"
+  }
+}
